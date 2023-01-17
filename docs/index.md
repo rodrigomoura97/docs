@@ -42,4 +42,4 @@ Existem diversos ETF's disponíveis na bolsa e vamos falar de três em especific
 Os BDR's é a forma mais prática de expor seu patrimônia ao dólar, investindo em empresas do exterior.
 Dessa forma você consegue investir através de uma corretora nacional, sem precisar abrir uma conta no exterior.
 
-Qualquer dúvida é só me procurar!
+Qualquer dúvida é só me procurar! (E se quiser, me patrocina/banca)
