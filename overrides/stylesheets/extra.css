@@ -1,0 +1,9 @@
+  :root > * {
+
+    /* Footer */
+    --md-footer-bg-color--dark: #2094f3 ;
+    --md-footer-fg-color: hsla(0, 0%, 100%, 1);
+    --md-footer-fg-color--light: hsla(0, 0%, 100%, 1);
+    --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 1);
+
+  }

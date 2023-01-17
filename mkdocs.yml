@@ -1,0 +1,64 @@
+site_name: VIRANDO SUGAR MOMMY
+nav:
+    - Home: index.md
+    - Corretoras: corretoras/index.md
+    - Ações: acoes/index.md
+    - FIIs: fiis/index.md
+    - ETFs: etfs/index.md
+    - BDRs: bdrs/index.md
+    
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: images/favicon.png
+  logo: assets/logo.png
+  palette:
+      primary: blue
+      accent: blue
+  features:
+    - toc.follow
+    - toc.integrate
+    - header.autohide
+    - navigation.tracking
+    - navigation.tabs
+    - search.suggest
+
+  language: pt-BR
+
+  hide:
+  - footer
+
+extra_css:
+  - stylesheets/extra.css
+
+
+copyright: Copyright &copy; 2022 Rodrigo Moura Humor&Piadas
+
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rodrigo-moura/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/rodrigo_fmoura/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Rodrigo_fmoura
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/rodrigoofmoura
+
+
+plugins:
+  - offline
+  - search
+
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
